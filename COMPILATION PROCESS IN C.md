@@ -13,6 +13,10 @@ The C compilation process is the series of steps by which a C program written by
 The preprocessor prepares the code before actual compilation.
 It mainly does 4 things-
 - Comments
+- ```
+  //this a comment
+  ```
+  remove completely
 - Expand macros
 ```
 #define PI 3.14
