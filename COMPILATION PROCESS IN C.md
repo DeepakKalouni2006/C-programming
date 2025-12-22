@@ -14,7 +14,9 @@ The preprocessor prepares the code before actual compilation.
 It mainly does 4 things-
 - Comments
 - Expand macros
-``` #define PI 3.14 ```
+```
+#define PI 3.14
+ ```
 this will replace PI with 3.14 everywhere.
 - Include header files
 ```#include <stdio.h>```
