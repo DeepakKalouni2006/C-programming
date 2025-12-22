@@ -17,20 +17,23 @@ It mainly does 4 things-
   //this a comment
   ```
   remove completely
+
 - Expand macros
 ```
 #define PI 3.14
  ```
 this will replace PI with 3.14 everywhere.
+
 - Include header files
 ```
 #include <stdio.h>
 ```
-copies contents of <stdio.h> into the program
+copies contents of <stdio.h> into the program.
+
 - Conditional compilation
 ```
 #ifdef DEBUG
 ```
-- decides which code to include or exclude
+- decides which code to include or exclude.
 
   ### Basically Preprocessor is like cleaning and organizing ingredients before cooking.
