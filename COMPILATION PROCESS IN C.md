@@ -68,3 +68,6 @@ printf("Hello");
 - It already exists in a library.
 - #### So printf() is a external reference.
 ### In Simple Words- The linker joins all parts of the program and library functions to make the final runnable program.
+
+
+## So This is the whole Summary of how compilation is done in C programming.
