@@ -19,19 +19,19 @@ It mainly does 4 things-
   remove completely
 
 - Expand macros
-```
+```c
 #define PI 3.14
  ```
 this will replace PI with 3.14 everywhere.
 
 - Include header files
-```
+```c
 #include <stdio.h>
 ```
 copies contents of <stdio.h> into the program.
 
 - Conditional compilation
-```
+```c
 #ifdef DEBUG
 ```
 - decides which code to include or exclude.
