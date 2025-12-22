@@ -53,13 +53,12 @@ copies contents of <stdio.h> into the program.
 ## Step 3 -> Assembly 
 The Assembler convert Converts assembly language into machine code (0s and 1s) and Generates an object file.
 - obj file contains Machine code But it is not complete,some functions (like printf) may be missing.
-### important point- 
 #### printf() is missing here because <stdio.h> only declare printf() but the actual implementation of printf is stored in library files and these library files are not added yet at the assembly stage.
 
 ### In Simple Words- The assembler converts the program into machine language so the computer can understand and execute it.
 
 ## Step 4 -> Linker
--Combines object files with library functions
+- Combines object files with library functions
 - Resolves external references - External references are functions or variables that are used in your program but are not written by you in the same file.
 ```c
 printf("Hello");
