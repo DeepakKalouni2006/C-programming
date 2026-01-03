@@ -65,7 +65,7 @@ copies contents of <stdio.h> into the program.
 <br>
 
 ## Step 3 -> Assembly 
-The Assembler convert Converts assembly language into machine code (0s and 1s) and Generates an object file.
+The Assembler Converts assembly language into machine code (0s and 1s) and Generates an object file.
 - obj file contains Machine code But it is not complete,some functions (like printf) may be missing.
 #### printf() is missing here because <stdio.h> only declare printf() but the actual implementation of printf is stored in library files and these library files are not added yet at the assembly stage.
 
