@@ -1,4 +1,4 @@
-# Variable
+# Variable in C
 variables are use to store data.
 ```c
 #include<stdio.h>
