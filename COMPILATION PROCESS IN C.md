@@ -82,8 +82,7 @@ in library files and these library files are not added yet at the assembly stage
 ```c
 printf("Hello");
 ```
-- Here we are using printf
-- But we did not write printf
+- Here we are using printf not write it.
 - It already exists in a library.
 #### So printf() is a external reference.
 ### In Simple Words- The linker joins all parts of the program and library functions to make the final runnable program.
