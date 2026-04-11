@@ -69,8 +69,7 @@ The Assembler Converts assembly language into machine code (0s and 1s) and Gener
 - obj file contains Machine code But it is not complete,some functions (like printf) may be missing.
  ``` 
 printf() is missing here because <stdio.h> only declare printf() but the actual implementation of printf is stored
-in library files and these library files are not
-added yet at the assembly stage.
+in library files and these library files are not added yet at the assembly stage.
 ```
 
 ### In Simple Words- The assembler converts the program into machine language so the computer can understand and execute it.
